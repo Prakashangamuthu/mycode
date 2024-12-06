@@ -10,12 +10,6 @@ sw-1
 sw-2
 
 [eosswitches:vars]
-ansible_network_os=eos 
-[eosswitches]
-sw-1
-sw-2
-
-[eosswitches:vars]
 ansible_network_os=eos
 
 ; additional switch vendors can be described within their own group
@@ -47,3 +41,4 @@ ansible_network_os=eos
 ;
 ;[vyosswitches:vars]
 ;ansible_network_os=vyos
+
